@@ -10,7 +10,7 @@ pipeline {
             steps {
                 echo 'Hello, World!'
                 // Add build commands here
-                sh 'echo myCustomEnvVar=$myCustomEnvVar'
+                sh 'echo myCustomerEnvVar=$myCustomerEnvVar'
                 sh 'echo otherEnvVar=$otherEnvVar'
             }
         }
